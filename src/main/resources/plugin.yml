@@ -1,0 +1,42 @@
+name: EcoEcoFarm
+version: 1.0.0
+main: com.example.ecoecofarm.EcoEcoFarm
+api-version: 1.21
+author: Murrak
+commands:
+  돈:
+    description: 현재 돈 확인
+    usage: /돈
+    permission: ecoecofarm.don
+  송금:
+    description: 다른 플레이어에게 돈 송금
+    usage: /송금 <플레이어> <금액>
+    permission: ecoecofarm.send
+  상점:
+    description: 아이템을 사고 파는 상점
+    usage: /상점
+    permission: ecoecofarm.shop
+  주식:
+    description: 주식 거래
+    usage: /주식
+    permission: ecoecofarm.stock
+  이자:
+    description: 매일 지급되는 이자
+    usage: /이자
+    permission: ecoecofarm.interest
+permissions:
+  ecoecofarm.don:
+    description: 돈 확인 권한
+    default: true
+  ecoecofarm.send:
+    description: 송금 권한
+    default: true
+  ecoecofarm.shop:
+    description: 상점 사용 권한
+    default: true
+  ecoecofarm.stock:
+    description: 주식 거래 권한
+    default: true
+  ecoecofarm.interest:
+    description: 이자 받기 권한
+    default: true
