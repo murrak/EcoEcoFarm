@@ -1,5 +1,5 @@
 name: EcoEcoFarm
-version: 0.1.0
+version: 0.2.0
 main: com.example.ecoecofarm.EcoEcoFarm
 api-version: 1.21
 author: Murrak
@@ -24,6 +24,9 @@ commands:
     description: 매일 지급되는 이자
     usage: /이자
     permission: ecoecofarm.interest
+  ecf:
+    description: 주식 관련 명령어
+    permission: ecoecofarm.establish
 permissions:
   ecoecofarm.don:
     description: 돈 확인 권한
@@ -40,3 +43,6 @@ permissions:
   ecoecofarm.interest:
     description: 이자 받기 권한
     default: true
+  ecoecofarm.establish:
+    description: 주식 등록
+    default: false

@@ -1,3 +1,6 @@
-com\example\ecoecofarm\EcoEcoFarm$1.class
 com\example\App.class
+com\example\ecoecofarm\EcoEcoFarm$1.class
+com\example\ecoecofarm\stock\StockManager.class
+com\example\ecoecofarm\commands\StockCommand.class
+com\example\ecoecofarm\Main.class
 com\example\ecoecofarm\EcoEcoFarm.class
